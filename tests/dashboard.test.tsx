@@ -1,0 +1,1 @@
+import{render,screen}from'@testing-library/react';import Home from '../src/pages/index';test('shows delivery overview',()=>{render(<Home/>);expect(screen.getByRole('heading',{name:/delivery overview/i})).toBeInTheDocument();expect(screen.getByText(/delivery activity/i)).toBeInTheDocument()});

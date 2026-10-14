@@ -1,0 +1,1 @@
+module.exports={testEnvironment:'jsdom',testMatch:['**/tests/**/*.test.ts?(x)'],moduleNameMapper:{'^@/(.*)$':'<rootDir>/src/$1'},setupFilesAfterEnv:['<rootDir>/tests/setup.ts']};
